@@ -1,0 +1,89 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    display: flex;
+}
+.logo {
+    width: 351px;
+    height: 113px;
+    margin: 0 auto
+}
+.container {
+    width: 1753px;
+    height: 145;
+    background-color: #EEE;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.search {
+    text-align: center;
+    height: 62px;
+}
+.ara {
+    width: 303px;
+}
+.paragraf {
+    margin: 0;
+}
+.feel {
+    text-align: center;
+}
+.btn {
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+}
+.special {
+    width: 650px;
+    height: 74px;
+    padding: 5px 0;
+    background-color: rgb(126, 229, 218);
+    float: left;
+    margin: 1px 1px 0 0;
+    font-size: 16px;
+}
+.special section {
+    display: flex;
+    flex-direction: column;
+}
+.help {
+    width: 350px;
+    height: 74px;
+    padding: 5px 0;
+    background-color: rgb(112, 204, 194);
+    float: left;
+    margin: 1px 1px 0 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+.get {
+    width: 750px;
+    height: 74px;
+    padding: 5px 0;
+    background-color: rgb(98, 179, 170);
+    float: left;
+    margin: 1px 1px 0 0;
+    font-size: 13px;
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    width: 170px;
+    margin: 0 auto;
+}
+.abone {
+    width: 75px;
+    height: 22px;
+}
+.archive a {
+    padding-left: 5px;
+}
+.copy {
+    margin-top: 15px;
+    color: #000;
+    font-size: 13px;
+   padding: 0 auto;
+   text-align: center;
+}
